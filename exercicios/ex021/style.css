@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* 
+    .       =       class
+    #       =       id
+    :       =       pseudo-classes
+    ::      =       pseudo-elementos
+    >       =       children/filho
+
+*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color:blueviolet;
+    cursor: pointer;
+    
+}
+a:visited{
+    color:rgb(100, 31, 163);
+}
+
+a:hover {
+    
+    text-decoration: underline;
+    font-size: 1.2em;
+    
+}
+.simbol {
+    background-color: rgb(191, 253, 128);
+    color: purple;
+}
+
+.simbol::before{
+    content: '⫸';
+    color: black;
+}
+.simbol::after {
+    content: '⫷';
+    color: black;
+}
+

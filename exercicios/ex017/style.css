@@ -1,0 +1,43 @@
+@charset "UTF-8";
+* {
+   
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+             ---> polegadas
+             |   --->pixels
+             |   |     -----> ambas são medidas da tipografia de papel, não são recomendadas para tela.
+             |   |     |
+             |   |   _____
+    cm, mm, in, px, (pt pc)
+     |   |           ------
+     |   |   
+     |   --->milímetros
+     --->centímetros
+
+
+
+     Medidas Relativas
+             --->configuração pra root, * ou só no body.
+             |    ---> largura da viewport (tela)..
+             |    |   ---> altura da viewport (tela).
+             |    |   |
+             |    |   |
+    em, ex, rem, vw, vh, %
+     |   |  
+     |   |
+     |   ---> altura do x
+     --->altura do M (maiúsculo)
+
+     16px geralmente = 1em
+    */
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
